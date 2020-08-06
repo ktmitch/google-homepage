@@ -1,0 +1,77 @@
+.main {
+  text-align: center;
+  margin-top: 120px;
+}
+
+form {
+  margin: 60px;
+}
+
+/* Top */
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.top {
+  display: block;
+  background-color: grey;
+}
+
+#leftheader li {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+#rightheader li {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+#rightheader button {
+  background-color: rgb(11, 149, 235);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Bottom */
+.bottom {
+    display: block;
+    background-color: grey;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bottom li {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.bottom li:hover {
+  background-color: gray;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#leftfooter li {
+  float: left;
+}
+
+#rightfooter li {
+  float: right;
+}
