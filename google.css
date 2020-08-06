@@ -86,3 +86,14 @@ ul {
 #rightfooter li {
   float: right;
 }
+
+/* Search Page */
+#searched {
+  font-size: 12px;
+  color: rgb(83, 83, 83);
+}
+
+.mainsearch {
+  float: left;
+  width: 100%;
+}
