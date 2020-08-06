@@ -7,6 +7,10 @@ form {
   margin: 60px;
 }
 
+input {
+  width: 360px;
+}
+
 /* Top */
 
 header {
@@ -40,14 +44,21 @@ header {
 
 /* Bottom */
 .bottom {
-    display: block;
-    background-color: grey;
+    display: inline;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: lightgray;
+  font-size: 14px;
+  color: rgb(34, 33, 33);
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -59,13 +70,13 @@ ul {
 .bottom li {
   margin: 10px;
   padding: 10px;
-  background-color: lightgray;
+
 }
 
 .bottom li:hover {
-  background-color: gray;
-  border: 1px solid black;
+  background-color: lightgray;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 #leftfooter li {
