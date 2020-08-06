@@ -37,9 +37,22 @@ header {
 }
 
 #rightheader button {
-  background-color: rgb(11, 149, 235);
+  background-color: rgb(11, 89, 235);
   color: white;
-  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 5px 10px 5px;
+}
+
+#rightheader button:hover {
+  cursor: pointer;
+}
+
+#profile {
+  background-color: lightblue;
+  color: white;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  float: right;
 }
 
 /* Bottom */
@@ -70,7 +83,6 @@ ul {
 .bottom li {
   margin: 10px;
   padding: 10px;
-
 }
 
 .bottom li:hover {
